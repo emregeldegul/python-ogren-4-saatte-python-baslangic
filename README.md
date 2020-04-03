@@ -1,33 +1,33 @@
-# Python Öğren 4 Saatte Python'a Başlangıç
+# Learn Python 4 Hour Getting Started
 
-**([PDF Olarak Erişim](./README.pdf))**
+**([PDF Version](./README.pdf))**
 
-##  Python Nedir?
+##  What is Python?
 
-Python; veri biliminden web uygulaması geliştirmeye, API oluşturmaktan sistem yönetimine kadar hem kişisel bilgisayarlarda, hem sunucu dünyasında hem de gömülü ve mobil cihazlarda kullanım alanı bulan, öğrenmesi kolay ve kod geliştirirken işleri oldukça hızlandıran bir dil.
+Python is a programming language that is really easy to learn and capable of speeding thing up when someone tries to achieve a result. It is being used in, but not limited to, data science, developing web apps, creating APIs, administrating systems; moreover, it is used on personal computers and servers, as well as mobile devices and embedded systems.
 
-## Neden Python Öğrenelim?
+## Why to learn Python?
 
-- Yüzbinlerce kütüphaneye sahip
-- Öğrenmesi ve yazımı kolay
-- Okuması rahat
-- Günlük işler için çok kısa sürede çözüm üretmeye müsait
+- It has hundreds of thousands of libraries
+- Learning and programming using it is easy
+- It is readable
+- It is a great tool to improve daily tasks in short times
 
-## Başlangıç
+## Intro
 
-### Kurulum
+### Installation
 
-Bilgisayarlarımızda Python'un kurulu olduğundan emin olmamız gerekiyor. Bunun için, <https://www.python.org/downloads/> adresinden işletim sistemimize uygun olan sürümü indiriyoruz.
+We should be sure that Python is installed on our computers. To do that, we are going to <https://www.python.org/downloads/> and download the version appropriate to our operating system.
 
-Kurulum aşamaları indirdiğimiz dosyayı açtığımızda çıkan ekranı takip ettiğimizde tamamlanıyor. Kod yazmaya hazırız!
+Install steps are done when we open the downloaded file and follow the instructions. We are ready to code!
 
-### Test Edelim
+### Let's Test
 
-Python'u test edebilmek için işletim sistemlerine göre birkaç yöntem mevcut. Onlara göre bakalım:
+There are a couple of methods to test Python, depending on the operating systems. See them accordingly:
 
-#### GNU/Linux ve MacOS
+#### GNU/Linux and MacOS
 
-Ubuntu, Fedora, OpenSuse gibi bir GNU/Linux dağıtımında çalışıyorsanız, tek yapmanız gereken bir terminal açıp `python3` yazmak ve entera basmaktan ibaret. Eğer hata almak yerine şöyle bir ekran görüyorsanız hazırsınız:
+If you are working on a GNU/Linux distribution like Ubuntu, Fedora, or OpenSuse, only thing you should do is openning a terminal and writing `python3` and afterwards press enter. If you get an output like below instead of seeing an error, you are ready:
 
 ```
 ➜  ~ python3
@@ -39,28 +39,28 @@ Type "help", "copyright", "credits" or "license" for more information.
 
 #### Windows
 
-Windows'ta kurulum yönteminize göre, PowerShell'i açıp `python` yazmak ve Enter'a basmak yeterli olur. Ayrıca bir arayüz kullanmak isterseniz uygulamalar arasından IDLE'yi açabilirsiniz.
+According to your setup method, running a PowerShell session, writing `python`, and pressing Enter will be enough on Windows. If you wish to utilize a graphical interface additionaly, you would open IDLE among your apps.
 
-### İlk Komutlar
+### First Commands
 
-Python'un bizimle etkileşime geçtiği yer kendi komut satırı.
+Where Python interacts with us is its own command line.
 
-Python'un bizden bir şeyler beklediğini `>>> ` yazmasından anlayabiliriz.
+We can understand Python is expecting somethins from us by seeing `>>> ` in its command line.
 
 ```
 >>> 
 ```
 
-Burada istersek matematiksel işlemleri yapabiliriz. Mesela elimizde yer alan fatura ödemelerinin toplamı için bir hesap makinesine ihtiyacımız olsun:
+We can do mathematical operations here if we wish. For example, assume that we need a calculator to find total value of our invoice payments:
 
 ```
 >>> 35.4 + 90 + 105.2
 230.60
 ```
 
-Sondaki çıktının noktadan sonraki kısmı daha uzun gözükebilir. Onu şimdilik görmezden gelelim ve devam edelim.
+The output at the end may be longer in the output above. Let's ignore that for now and continue.
 
-### Nasıl Çıkarız?
+### How We Exit?
 
 Python'a bir şeyler yazdık ama onu nasıl kapatıp çıkacağımızı henüz görmedik. İstediğimiz hesaplamayı yaptıktan sonra, Python'dan çıkmak için `exit()` yazıp entera basmamız yeterli.
 
